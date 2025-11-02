@@ -81,8 +81,7 @@ public class LoansController {
                     )
             )
     }
-    )
-    @GetMapping("/fetch")
+    )    @GetMapping("/fetch")
     public ResponseEntity<LoansDto> fetchLoanDetails(@RequestParam
                                                                @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
                                                                String mobileNumber) {
