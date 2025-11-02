@@ -1,0 +1,1 @@
+to generate docker image using buildpacks: mvn spring-boot:build-image
